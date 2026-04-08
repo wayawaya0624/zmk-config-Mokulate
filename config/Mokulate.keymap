@@ -26,6 +26,11 @@
             bindings = <&kp LEFT_ALT>;
             key-positions = <21 22>;
         };
+
+        to_layer2 {
+            bindings = <&to 2>;
+            key-positions = <12 39>;
+        };
     };
 
     keymap {
