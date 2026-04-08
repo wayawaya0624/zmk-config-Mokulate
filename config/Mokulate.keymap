@@ -8,12 +8,12 @@
         compatible = "zmk,combos";
 
         lan_2 {
-            bindings = <&kp LANGUAGE_2>;
+            bindings = <&kp LANGUAGE_1>;
             key-positions = <15 16>;
         };
 
         lan_1 {
-            bindings = <&kp LANGUAGE_1>;
+            bindings = <&kp LANGUAGE_2>;
             key-positions = <19 20>;
         };
 
@@ -28,7 +28,7 @@
         };
 
         to_layer2 {
-            bindings = <&to 2>;
+            bindings = <&to 1>;
             key-positions = <12 39>;
         };
 
