@@ -31,6 +31,11 @@
             bindings = <&to 2>;
             key-positions = <12 39>;
         };
+
+        symbol_layeu {
+            bindings = <&to 2>;
+            key-positions = <39 44>;
+        };
     };
 
     keymap {
@@ -64,12 +69,5 @@
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        conditional_function {
-            if-layers = <0 1>;
-            then-layer = <2>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 };
